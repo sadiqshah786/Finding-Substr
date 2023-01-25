@@ -1,0 +1,44 @@
+@font-face {
+    font-family:JosefinSans-Bold ;
+    src: url(Josefin_Sans/JosefinSans-Bold.ttf);
+}
+
+@font-face {
+    font-family:JosefinSans-Regular ;
+    src: url(Josefin_Sans/JosefinSans-Regular.ttf);
+}
+body{
+    background-color: #E4EBF5;
+}
+.card {
+    width: 40%;
+    margin: 60px auto;
+    padding: 20px;
+    font-family:JosefinSans-Regular ;
+}
+ul {
+    margin-left: unset;
+    text-align: center;
+    background: #ecf0f1;
+    padding: 20px;
+}
+ul.card-text li {
+    display: inline-block;
+    margin-right: 10px;
+    text-align: center;
+    color: #2c3e50;
+}
+h5{
+    font-family:JosefinSans-Bold ;
+    font-size: 25px;
+    text-transform: capitalize;
+}
+a.btn {
+    width: 100%;
+    background: #2ecc71;
+    color: #fff;
+    border: none;
+}
+.btn-check:focus+.btn, .btn:focus{
+    box-shadow: none;
+}
